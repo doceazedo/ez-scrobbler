@@ -1,0 +1,42 @@
+#svelte {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#svelte > .section {
+  margin-bottom: auto;
+}
+
+.button.is-lastfm {
+  background-color: #ba0000;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-lastfm:hover {
+  background-color: #ca0000;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-lastfm:focus {
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-lastfm:focus:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(202, 0, 0, .25);
+}
+
+.button.is-lastfm:active {
+  background-color: #ca0000;
+  border-color: transparent;
+  color: #fff;
+}
+
+.label.is-required::after {
+  content: ' *';
+  color: #ff0000;
+  font-weight: 400;
+}
