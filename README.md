@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://ezscrobller.vercel.app">eZ Scrobbler</a>
+  <a href="https://ezscrobbler.vercel.app">eZ Scrobbler</a>
 </h1>
 
 <p align="center">
